@@ -3,12 +3,9 @@
   "compilerOptions": {
     "strict": true,
     "paths": {
-      "@/*": [
-        "./src/*"
-      ],
-      "~/*": [
-        "./*"
-      ]
+      "@/*": ["./src/*"],
+      "~/*": ["./*"],
+      "@/convex/*": ["./convex/*"]
     }
   },
   "include": [
